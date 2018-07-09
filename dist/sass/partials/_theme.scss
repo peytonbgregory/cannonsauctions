@@ -1,0 +1,78 @@
+header.site-header {
+background: #ffffff;
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%);
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%);
+background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+border-bottom:2px solid #8a2c2d;
+}
+
+#mainfooter {
+	background: #e5e5e5;
+}
+
+video#bgvid {
+     position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+
+#pg-content {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8d3536+0,532d2c+100 */
+
+background: #8d3536; /* Old browsers */
+
+background: -moz-linear-gradient(top,  #8d3536 0%, #532d2c 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(top,  #8d3536 0%,#532d2c 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to bottom,  #8d3536 0%,#532d2c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8d3536', endColorstr='#532d2c',GradientType=0 ); /* IE6-9 */
+}
+
+
+#flex-section-content .grid-x .cell {
+	
+	background: #ffffff;
+
+background: -moz-linear-gradient(-45deg,  #ffffff 0%, #e5e5e5 100%);
+
+background: -webkit-linear-gradient(-45deg,  #ffffff 0%,#e5e5e5 100%);
+
+background: linear-gradient(135deg,  #ffffff 0%,#e5e5e5 100%);
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 );
+
+
+}
+
+
+
+
+section#pg-banner {
+    background: url(/wp-content/uploads/2017/12/auction_car.jpeg) center bottom no-repeat;
+    min-height: 600px;
+    background-size: cover;
+    max-height: 50vh;
+	.overlay {
+		margin:1em 0;
+	
+	.h1 {
+		text-transform:uppercase;
+		small {
+			display:block;
+		
+			}
+		}
+	}
+}

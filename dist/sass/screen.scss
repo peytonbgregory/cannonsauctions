@@ -1,0 +1,19 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+@import "foundation";
+
+
+// @import "compass/reset";
+@import "partials/settings"; // Foundation Framework Settings
+@import "partials/main"; // core style
+@import "partials/foundation-icons"; // foundation icon Fonts 3
+@import "partials/fonts"; // Custom theme fonts 
+@import "partials/mixin"; // mixins
+@import "partials/theme"; // EDIT THIS FILE TO CUSTOMIZE THE THEME
+ 
+
+@include foundation-everything;
